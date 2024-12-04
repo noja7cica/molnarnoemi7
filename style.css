@@ -1,0 +1,579 @@
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    grid-area: main;
+    background-color: #E6E0E2; 
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+
+}
+
+.fejléc{
+
+position: absolute;
+width: 100%;
+height: 55px;
+left: 0px;
+top: 0px;
+
+background: #4C0E19;
+transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.logó{
+position: absolute;
+width: 60px;
+height: 54px;
+left: 17px;
+top: 0px;
+border-radius: 208px;
+}
+
+h1{
+
+position: absolute;
+width: flex;
+height: flex;
+left: 104px;
+top: -25px;
+
+font-family: 'Sorts Mill Goudy';
+font-style: normal;
+font-weight: 400;
+font-size: 37px;
+line-height: 53px;
+
+color: #E6E0E2;
+
+}
+
+.gomb1{
+
+position: absolute;
+width: 203px;
+height: 55px;
+left: 590px;
+top: 0px;
+
+background:#E6E0E2;
+
+}
+.gomb1:hover {
+    background-color: #4C0E19;
+    transition: all ease-in 200ms; 
+}
+.branding{
+
+position: absolute;
+width: flex;
+height: flex;
+left: 60px;
+top: 10px;
+
+font-family: 'Sorts Mill Goudy';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 33px;
+
+color: #4C0E19;
+}
+.branding:hover {
+    color: #E6E0E2;
+    transition: all ease-in 60ms; 
+}
+
+
+.gomb2{
+
+position: absolute;
+width: 203px;
+height: 55px;
+left: 150px;
+top: -10px;
+
+background: #E6E0E2;
+}
+.gomb2:hover {
+    background-color: #4C0E19;
+    transition: all ease-in 200ms; 
+}
+.products{
+position: absolute;
+width: flex;
+height: flex;
+left: 60px;
+top: 10px;
+
+font-family: 'Sorts Mill Goudy';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 33px;
+
+color: #4C0E19;
+}
+.products:hover {
+    color: #E6E0E2;
+    transition: all ease-in 60ms; 
+}
+
+
+.gomb3{
+
+position: absolute;
+width: 203px;
+height: 55px;
+left: 150px;
+top: -10px;
+
+background: #E6E0E2;
+}
+.gomb3:hover {
+    background-color: #4C0E19;
+    transition: all ease-in 200ms; 
+}
+.cinfo{
+
+position: absolute;
+width: flex;
+height: flex;
+left: 40px;
+top: 10px;
+
+font-family: 'Sorts Mill Goudy';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 33px;
+
+color: #4C0E19;
+}
+.cinfo:hover {
+    color: #E6E0E2;
+    transition: all ease-in 60ms; 
+}
+
+
+.termékkép{
+
+position: absolute;
+width: 480px;
+height: 563px;
+left: -1050px;
+top: 159px;
+
+background: url(Képernyőkép 2024-11-22 095433.jpg);
+}
+
+.alléc{
+
+position: absolute;
+width:1105%;
+height: 102px;
+left: -1050px;
+bottom: -791px;
+
+background: #4C0E19;
+}
+
+h2{
+
+position: absolute;
+width: flex;
+height: flex;
+left: 104px;
+top: -25px;
+
+font-family: 'Sorts Mill Goudy';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 55px;
+
+color: #E6E0E2;
+
+}
+
+h3{
+
+position: absolute;
+width: 160px;
+height: 58px;
+left: 590px;
+top: -650px;
+
+font-family: 'Sorts Mill Goudy';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 58px;
+color: #4C0E19;
+}
+
+h4{
+position: absolute;
+width: 213px;
+height: 504px;
+left: 657px;
+top: -200px;
+
+font-family: 'Sorts Mill Goudy';
+font-style: normal;
+font-weight: 400;
+font-size: 5px;
+line-height: 33px;
+
+color: #4C0E19;
+
+} 
+.instagramm{
+
+position: absolute;
+width: 536px;
+height: 27px;
+left: 52px;
+top:20px;
+
+font-family: 'Sorts Mill Goudy';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 33px;
+
+color: #E6E0E2;
+}
+
+
+.phone{
+
+position: absolute;
+width: 536px;
+height: 27px;
+left: 52px;
+top: 30px;
+
+font-family: 'Sorts Mill Goudy';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 33px;
+
+color: #E6E0E2;
+}
+h4{
+    position: absolute;
+    width: 50%;
+    height: 504px;
+    left: 590px;
+    top: -550px;
+    
+    font-family: 'Sorts Mill Goudy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    
+    color: #4C0E19;
+}    
+h5{
+    position: absolute;
+    width: 50%;
+    height: 500px;
+    left: 590px;
+    top: -430px;
+    
+    font-family: 'Sorts Mill Goudy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    
+    color: #4C0E19;
+}    
+@media (max-width: 845px){
+.fejléc{
+
+    width: 845px;
+    height: 55px;
+    }
+    
+    .logó{
+    position: absolute;
+    width: 40px;
+    height: 34px;
+    left: 7px;
+    top: 15px;
+    border-radius: 208px;
+    }
+    
+    h1{
+    
+    position: absolute;
+    width: flex;
+    height: flex;
+    left: 54px;
+    top: -10px;
+    
+    font-family: 'Sorts Mill Goudy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 53px;
+    
+    color: #E6E0E2;
+    
+    }
+    
+    .gomb1{
+    
+    position: absolute;
+    width: 83px;
+    height: 55px;
+    left: 200px;
+    top: 0px;
+    
+    background:#E6E0E2;
+    
+    }
+    .gomb1:hover {
+        background-color: #4C0E19;
+        transition: all ease-in 200ms; 
+    }
+    .branding{
+    
+    position: absolute;
+    width: flex;
+    height: flex;
+    left: 20px;
+    top: 10px;
+    
+    font-family: 'Sorts Mill Goudy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 33px;
+    
+    color: #4C0E19;
+    }
+    .branding:hover {
+        color: #E6E0E2;
+        transition: all ease-in 60ms; 
+    }
+    
+    
+    .gomb2{
+    
+    position: absolute;
+    width: 83px;
+    height: 55px;
+    left: 70px;
+    top: -10px;
+    
+    background: #E6E0E2;
+    }
+    .gomb2:hover {
+        background-color: #4C0E19;
+        transition: all ease-in 200ms; 
+    }
+    .products{
+    position: absolute;
+    width: flex;
+    height: flex;
+    left: 20px;
+    top: 10px;
+    
+    font-family: 'Sorts Mill Goudy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 33px;
+    
+    color: #4C0E19;
+    }
+    .products:hover {
+        color: #E6E0E2;
+        transition: all ease-in 60ms; 
+    }
+    
+    
+    .gomb3{
+    
+    position: absolute;
+    width: 83px;
+    height: 55px;
+    left: 70px;
+    top: -10px;
+    
+    background: #E6E0E2;
+    }
+    .gomb3:hover {
+        background-color: #4C0E19;
+        transition: all ease-in 200ms; 
+    }
+    .cinfo{
+    
+    position: absolute;
+    width: flex;
+    height: flex;
+    left: 20px;
+    top: 10px;
+    
+    font-family: 'Sorts Mill Goudy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 33px;
+    
+    color: #4C0E19;
+    }
+    .cinfo:hover {
+        color: #E6E0E2;
+        transition: all ease-in 60ms; 
+    }
+    
+    
+    .termékkép{
+    
+    position: absolute;
+    width: 180px;
+    height: 233px;
+    left: -400px;
+    top: 240px;
+    
+    background: url(Képernyőkép 2024-11-22 095433.jpg);
+    }
+    
+    .alléc{
+    
+    position: absolute;
+    width:845px;
+    height: 102px;
+    left: -450px;
+    bottom: -541px;
+    
+    background: #4C0E19;
+    }
+    
+    h2{
+    
+    position: absolute;
+    width: flex;
+    height: flex;
+    left: 104px;
+    top:-25px;
+    
+    font-family: 'Sorts Mill Goudy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 55px;
+    
+    color: #E6E0E2;
+    
+    }
+    
+    h3{
+    
+    position: absolute;
+    width: 160px;
+    height: 58px;
+    left:70px;
+    top: -440px;
+    
+    font-family: 'Sorts Mill Goudy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 58px;
+    color: #4C0E19;
+    }
+    
+    h4{
+    position: absolute;
+    width: 100px;
+    height: 504px;
+    left: 450px;
+    top: 450px;
+    
+    font-family: 'Sorts Mill Goudy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: px;
+    line-height: 33px;
+    
+    color: #4C0E19;
+    
+    } 
+    .instagramm{
+    
+    position: absolute;
+    width: 536px;
+    height: 27px;
+    left: 54px;
+    top:15px;
+    
+    font-family: 'Sorts Mill Goudy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 33px;
+    
+    color: #E6E0E2;
+    }
+    
+    
+    .phone{
+    
+    position: absolute;
+    width: 536px;
+    height: 27px;
+    left: 54px;
+    top: 25px;
+    
+    font-family: 'Sorts Mill Goudy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 33px;
+    
+    color: #E6E0E2;
+    }
+    h4{
+        position: absolute;
+        width: 300px;
+        height: 504px;
+        left: 220px;
+        top: -410px;
+        
+        font-family: 'Sorts Mill Goudy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 33px;
+        
+        color: #4C0E19;
+    }    
+    h5{
+        position: absolute;
+        width: 300px;
+        height: 500px;
+        left: 220px;
+        top: -250px;
+        
+        font-family: 'Sorts Mill Goudy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 33px;
+        
+        color: #4C0E19;
+    }    
+}
